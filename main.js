@@ -30,7 +30,7 @@ let questions = [{
         options: [
             "Rotimi Amaechi",
             "A.V Dicey",
-            "Olusgegun Obasanjo",
+            "Olusegun Obasanjo",
             "Atiku Abubakar"
         ],
         answer: 1
