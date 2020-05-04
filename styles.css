@@ -84,7 +84,7 @@ button {
     font-size: 1.8rem;
     background: #fff;
     color: var(--primary-color);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     letter-spacing: 1px;
     border: 0;
     outline: none;
@@ -245,16 +245,16 @@ button:hover {
         padding-top: 25rem;
     }
     p {
-        font-size: 3rem;
+        font-size: 4rem;
         padding-left: 1rem;
         padding-right: 1rem;
     }
     button {
-        padding: 2rem 2.5rem;
-        font-size: 2rem;
+        padding: 2.5rem 3rem;
+        font-size: 2.8rem;
     }
     .options {
-        font-size: 2.2rem;
+        font-size: 3rem;
     }
     #quiz-over {
         margin-top: 40px;
