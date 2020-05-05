@@ -69,6 +69,8 @@ p {
 .counters {
     display: grid;
     grid-template-columns: 2fr 0.5fr;
+    font-family: var(--main-font);
+    font-size: 2rem;
 }
 
 .quiz-btn {
@@ -255,6 +257,9 @@ button:hover {
         padding: 2.5rem 3rem;
         font-size: 2.8rem;
     }
+    .counters {
+     font-size: 2.8rem;
+ }
     .options {
         font-size: 3.4rem;
         font-weight: 500;
