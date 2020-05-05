@@ -89,10 +89,10 @@ function quizBody(index) {
 let score;
 let scoreCounter = 0;
 let questionsAnswered;
-let questionsCounter = 0;
+let questionsCounter = 1;
 
 function choose(element) {
-    for (let i = 0; i < questions.length; i++) {
+    for (let i = 1; i <= questions.length; i++) {
         if (questionsCounter == i && element.id == questions[i].answer) {
             scoreCounter += 5;
             score = document.getElementById('s-c').innerHTML = 'Score: ' + scoreCounter;
