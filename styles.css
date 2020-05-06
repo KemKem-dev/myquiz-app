@@ -44,6 +44,13 @@ body {
     letter-spacing: 1px;
 }
 
+.home p {
+     color: #fff;
+     font-family: var(--body-font);
+     margin-top: 10px;
+     font-size: 2rem;
+}
+
 p {
     font-size: 2.6rem;
     font-family: var(--main-font);
@@ -245,6 +252,9 @@ button:hover {
     }
     .home {
         padding-top: 22rem;
+    }
+    .home p {
+         margin-top: 1rem;
     }
     p {
         font-size: 4rem;
