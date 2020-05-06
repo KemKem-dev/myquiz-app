@@ -47,7 +47,7 @@ body {
 .home p {
      color: #fff;
      font-family: var(--body-font);
-     margin-top: 10px;
+     margin-top: 1rem;
      font-size: 2rem;
 }
 
@@ -254,7 +254,7 @@ button:hover {
         padding-top: 22rem;
     }
     .home p {
-         margin-top: 1rem;
+         margin-top: 1.5rem;
     }
     p {
         font-size: 4rem;
